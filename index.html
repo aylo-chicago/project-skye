@@ -31,11 +31,11 @@ a { color:var(--primary); font-weight:700; text-decoration:none; }
 a:hover { background:var(--info-wash); }
 .bar { display:flex; align-items:stretch; gap:16px; border-bottom:2px solid var(--primary); background:#fff; padding:0 16px; min-height:72px; flex-wrap:wrap; }
 .bar .mark { width:58px; height:58px; align-self:center; border:2px solid var(--primary); object-fit:cover; }
-.subbar { display:flex; gap:14px; align-items:center; background:var(--paper-2); border-bottom:var(--rule); padding:5px 16px; font-size:11.5px; color:var(--ink-3); flex-wrap:wrap; }
+.subbar { display:flex; gap:14px; align-items:center; background:var(--paper-2); border-bottom:var(--rule); padding:5px 16px; font-size:12.5px; color:var(--ink-3); flex-wrap:wrap; }
 .ident { align-self:center; }
-.ident .nm { font-weight:700; font-size:16px; color:var(--ink); }
-.ident .sub { font-size:12.5px; color:var(--ink-3); }
-.mode { align-self:center; background:var(--primary); color:#fff; font-size:12px; font-weight:700; padding:5px 10px; letter-spacing:.06em; }
+.ident .nm { font-weight:700; font-size:17px; color:var(--ink); }
+.ident .sub { font-size:13.5px; color:var(--ink-3); }
+.mode { align-self:center; background:var(--primary); color:#fff; font-size:13px; font-weight:700; padding:5px 10px; letter-spacing:.06em; }
 nav { display:flex; align-items:stretch; margin-left:auto; }
 nav button { border:none; background:none; font:700 13px var(--body); color:var(--ink-3); padding:0 14px; cursor:pointer; border-bottom:3px solid transparent; }
 nav button.active { color:var(--primary); border-bottom-color:var(--primary); }
@@ -43,18 +43,18 @@ main { max-width:1180px; margin:0 auto; padding:24px 16px 64px; }
 .view { display:none; } .view.show { display:block; }
 .vhead { border-bottom:3px solid var(--primary); padding-bottom:8px; margin-bottom:16px; display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; }
 .vhead h1 { font-size:32px; }
-.vhead .desc { font-size:13px; color:var(--ink-3); }
-.vhead .annot { margin-left:auto; font-size:11.5px; color:var(--ink-3); }
+.vhead .desc { font-size:14px; color:var(--ink-3); }
+.vhead .annot { margin-left:auto; font-size:12.5px; color:var(--ink-3); }
 .panel { background:#fff; border:var(--rule); margin:0 0 16px; }
 .panel.key { border:1px solid var(--primary); }
 .phead { display:flex; align-items:baseline; border-bottom:var(--rule); padding:10px 13px; }
-.phead h2 { font-size:18px; }
-.phead .annot { margin-left:auto; font-size:11.5px; color:var(--ink-3); }
+.phead h2 { font-size:19px; }
+.phead .annot { margin-left:auto; font-size:12.5px; color:var(--ink-3); }
 .pbody { padding:11px 13px; }
-.kick { font-size:10.5px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-3); }
+.kick { font-size:11.5px; font-weight:800; text-transform:uppercase; letter-spacing:.08em; color:var(--ink-3); }
 details { background:#fff; border:var(--rule); margin:0 0 8px; }
 details[open] { border-color:var(--primary); }
-summary { cursor:pointer; padding:9px 13px; font-family:var(--display); text-transform:uppercase; letter-spacing:.04em; font-size:17px; color:var(--primary); list-style:none; display:flex; align-items:center; gap:12px; }
+summary { cursor:pointer; padding:9px 13px; font-family:var(--display); text-transform:uppercase; letter-spacing:.04em; font-size:18px; color:var(--primary); list-style:none; display:flex; align-items:center; gap:12px; }
 summary:hover { background:var(--info-wash); }
 summary::-webkit-details-marker { display:none; }
 .num { background:var(--primary); color:#fff; font:700 13px var(--body); width:26px; height:26px; display:inline-flex; align-items:center; justify-content:center; flex:none; letter-spacing:0; }
@@ -68,44 +68,44 @@ details[open] .num { background:#fff; color:var(--primary); }
 details[open] .gist { display:none; }
 details[open] summary .annot { color:#C9D6E6; }
 details .inner { border-top:var(--rule); padding:11px 13px; }
-details p { margin:0 0 10px; font-size:13px; }
+details p { margin:0 0 10px; font-size:14px; }
 .stats { display:grid; grid-template-columns:repeat(6,1fr); background:#fff; border:var(--rule); margin:0 0 14px; }
 .stats > div { padding:9px 12px; border-left:1px solid var(--line-soft); }
 .stats > div:first-child { border-left:none; }
 .stats .val { font:700 15px var(--body); color:var(--ink); font-variant-numeric:tabular-nums; display:block; margin:2px 0 1px; }
-.stats .note { font-size:11px; color:var(--ink-3); }
+.stats .note { font-size:12px; color:var(--ink-3); }
 .slot { border:var(--rule); height:9px; margin:5px 0 3px; }
 .slot .fill { background:var(--primary); height:100%; }
-.nsstrip { background:var(--info-wash); border:var(--rule); border-left:4px solid var(--primary); padding:9px 13px; margin:0 0 14px; font-size:13px; }
+.nsstrip { background:var(--info-wash); border:var(--rule); border-left:4px solid var(--primary); padding:9px 13px; margin:0 0 14px; font-size:14px; }
 .nsstrip .q { font-style:italic; color:var(--ink); }
 tbody tr:hover td { background:var(--info-wash) !important; }
-.northstar { background:var(--info-wash); border-left:3px solid var(--primary); padding:11px 13px; font-style:italic; color:var(--ink); font-size:14px; margin:0 0 10px; }
-.src { font-size:11px; color:var(--ink-3); border-top:1px dashed var(--line-soft); padding-top:7px; margin-top:4px; }
-.src a { font-size:11px; }
-.pill { display:inline-block; font-size:10px; font-weight:800; text-transform:uppercase; letter-spacing:.05em; padding:2px 7px; }
+.northstar { background:var(--info-wash); border-left:3px solid var(--primary); padding:11px 13px; font-style:italic; color:var(--ink); font-size:15px; margin:0 0 10px; }
+.src { font-size:12px; color:var(--ink-3); border-top:1px dashed var(--line-soft); padding-top:7px; margin-top:4px; }
+.src a { font-size:12px; }
+.pill { display:inline-block; font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.05em; padding:2px 7px; }
 .p-open { background:var(--warn-wash); color:var(--warn-text); }
 .p-done { background:var(--good-wash); color:var(--good); }
 .p-prog { background:var(--info-wash); color:var(--primary); }
 .p-new  { background:var(--action); color:#1A2129; }
 .p-note { background:var(--paper-2); color:var(--ink-3); border:1px solid var(--line); }
-.chip { display:inline-block; border:1px solid var(--line); font-size:10.5px; font-weight:700; color:var(--ink-3); padding:1px 6px; }
-.tension { background:var(--warn-wash); border:1px solid #EAD3A4; border-top:4px solid var(--warn-text); padding:9px 12px; margin:0 0 10px; font-size:12.5px; color:var(--ink); }
+.chip { display:inline-block; border:1px solid var(--line); font-size:11.5px; font-weight:700; color:var(--ink-3); padding:1px 6px; }
+.tension { background:var(--warn-wash); border:1px solid #EAD3A4; border-top:4px solid var(--warn-text); padding:9px 12px; margin:0 0 10px; font-size:13.5px; color:var(--ink); }
 .tension .hold { color:var(--good); font-weight:700; }
-.tnote { background:var(--paper-2); border:var(--rule); border-top:4px solid var(--ink-3); padding:9px 12px; margin:0 0 10px; font-size:12.5px; }
-table { border-collapse:collapse; width:100%; background:#fff; font-size:12.5px; }
-thead th { background:var(--primary); color:#fff; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; text-align:left; padding:7px 10px; }
+.tnote { background:var(--paper-2); border:var(--rule); border-top:4px solid var(--ink-3); padding:9px 12px; margin:0 0 10px; font-size:13.5px; }
+table { border-collapse:collapse; width:100%; background:#fff; font-size:13.5px; }
+thead th { background:var(--primary); color:#fff; font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; text-align:left; padding:7px 10px; }
 td { border-bottom:1px solid var(--line-soft); padding:9px 10px; vertical-align:top; }
 td + td { border-left:1px solid var(--line-soft); }
 tr:nth-child(even) td { background:var(--paper-2); }
 td b { color:var(--ink); }
-.cap { font-size:10.5px; color:var(--ink-3); }
+.cap { font-size:11.5px; color:var(--ink-3); }
 .grid2 { display:grid; grid-template-columns:1fr 1fr; }
 .grid2 > div { padding:11px 13px; border-left:1px solid var(--line-soft); }
 .grid2 > div:first-child { border-left:none; }
-ul { margin:4px 0 10px; padding-left:18px; font-size:12.5px; }
+ul { margin:4px 0 10px; padding-left:18px; font-size:13.5px; }
 li { margin:3px 0; }
 li::marker { color:var(--primary-3); }
-footer { border-top:var(--rule); background:var(--paper-2); color:var(--ink-3); font-size:11.5px; padding:12px 16px; }
+footer { border-top:var(--rule); background:var(--paper-2); color:var(--ink-3); font-size:12.5px; padding:12px 16px; }
 @media (prefers-reduced-motion: no-preference) {
   .view.show .rv { opacity:0; transform:translateY(8px); animation:rv 340ms var(--ease-out) forwards; }
   .view.show .rv:nth-child(1){animation-delay:0ms}.view.show .rv:nth-child(2){animation-delay:120ms}.view.show .rv:nth-child(3){animation-delay:240ms}.view.show .rv:nth-child(4){animation-delay:360ms}.view.show .rv:nth-child(5){animation-delay:480ms}.view.show .rv:nth-child(6){animation-delay:600ms}.view.show .rv:nth-child(7){animation-delay:720ms}.view.show .rv:nth-child(8){animation-delay:840ms}.view.show .rv:nth-child(9){animation-delay:960ms}.view.show .rv:nth-child(10){animation-delay:1080ms}.view.show .rv:nth-child(11){animation-delay:1200ms}.view.show .rv:nth-child(12){animation-delay:1320ms}.view.show .rv:nth-child(13){animation-delay:1440ms}
@@ -142,7 +142,7 @@ footer { border-top:var(--rule); background:var(--paper-2); color:var(--ink-3); 
     <span class="desc">One integrated draft, assembled from the group's documents. v0.2 · synced Sept 24, 2026.</span>
     <span class="annot">tensions flagged inline · every tension also listed under Open Questions · raw documents linked per section</span>
   </div>
-  <p class="rv" style="font-size:12.5px; margin:0 0 14px;">Built from Bob's outline, Caitrin's structure and notebook, Tim's precis and Carnegie Diploma concept, Diane's Precision Core v.2, Aylon's architecture and Design Commons note, the Aug 6 session, and the thread. Where the group disagrees, an amber strip records who holds what and which reading this draft carries for now. Section text is synthesis; phrases in quotation marks are verbatim; links open the originals. Nothing is settled until the group settles it.</p>
+  <p class="rv" style="font-size:13.5px; margin:0 0 14px;">Built from Bob's outline, Caitrin's structure and notebook, Tim's precis and Carnegie Diploma concept, Diane's Precision Core v.2, Aylon's architecture and Design Commons note, the Aug 6 session, and the thread. Where the group disagrees, an amber strip records who holds what and which reading this draft carries for now. Section text is synthesis; phrases in quotation marks are verbatim; links open the originals. Nothing is settled until the group settles it.</p>
   <div class="panel key rv">
     <div class="phead"><h2>What&#39;s new · Sept 24 sync</h2><span class="annot">v0.1 → v0.2 · previous sync Sept 3</span></div>
     <div class="pbody"><ul>
@@ -150,7 +150,7 @@ footer { border-top:var(--rule); background:var(--paper-2); color:var(--ink-3); 
       <li><span class="pill p-new">NEW</span> <b>Diane&#39;s expanded Precision Core</b> (Sept 18–22): the what&#39;s-possible student journey and the completed strategy section, roughly 25 comments on the outline, and her three-year project inserted as a written alternative proposal. Sections 3, 4, 5, and 8 updated; the theory of change now exists in writing. <a href="https://docs.google.com/document/d/1kvUtpFTq3E2wIbBqQ-kEY2sCYNvPYPDZQ5pUul1DER0/edit" target="_blank">Read it ↗</a></li>
       <li><span class="pill p-new">NEW</span> <b>Arizona research</b> (via Andrew Clark, Stand Together): Phoenix focus groups, a statewide poll (N=602), and Stand Together&#39;s five-year AZ redesign plan. Sections 1, 7, and 8 updated; a new coalition question added.</li>
       <li>Open Questions: five new rows; positions updated on personalization, size of the bet, and pilot measurement. Library: links repaired after Diane&#39;s folder reorganization; new documents added. Look for <span class="pill p-new">UPDATED</span> pills on section headers.</li>
-      <li><span class="pill p-new">NEW</span> <b>Draft agenda v1</b> for Sept 28–29, built from the Open Questions notebook, timed and stewarded: see the Sept 28–29 tab. Diane and Aylon are shaping it Sept 24; the group rewrites it in the room. <a href="https://docs.google.com/document/d/1Bh6JQ7P1ibOAyo5G4wNZ42gG7Q47mQ4LsWl_k8yFDi8/edit" target="_blank">Editable doc ↗</a></li>
+      <li><span class="pill p-new">NEW</span> <b>Draft agenda v1</b> for Sept 28–29, built from the Open Questions notebook, timed and stewarded: see the Sept 28–29 tab. Diane and Aylon are shaping it Sept 24; the group rewrites it in the room. <a href="https://docs.google.com/document/d/16huW8PZGhipvt8geo5WdX57SnyI5-eN07PxNoScVUVs/edit" target="_blank">Editable doc ↗</a></li>
     </ul></div>
   </div>
 
@@ -351,19 +351,19 @@ footer { border-top:var(--rule); background:var(--paper-2); color:var(--ink-3); 
   <div class="vhead rv">
     <h1>Sept 28–29 · Chicago</h1>
     <span class="desc">Logistics and a draft agenda for the group to rewrite.</span>
-    <span class="annot">draft agenda v1 posted Sept 24, ahead of the Diane–Aylon call · built from the Open Questions notebook · <a href="https://docs.google.com/document/d/1Bh6JQ7P1ibOAyo5G4wNZ42gG7Q47mQ4LsWl_k8yFDi8/edit" target="_blank">editable Google Doc ↗</a></span>
+    <span class="annot">draft agenda v1 posted Sept 24, ahead of the Diane–Aylon call · built from the Open Questions notebook · <a href="https://docs.google.com/document/d/16huW8PZGhipvt8geo5WdX57SnyI5-eN07PxNoScVUVs/edit" target="_blank">editable Google Doc ↗</a></span>
   </div>
   <div class="panel rv">
     <div class="phead"><h2>Logistics</h2></div>
     <div class="pbody">
-      <p style="margin:0 0 6px; font-size:13px;"><b>Monday, September 28</b> · dinner, 6:00 pm<br><b>Tuesday, September 29</b> · working day, 8:00 am – 4:00 pm · departures from ORD from about 6:25 pm work</p>
+      <p style="margin:0 0 6px; font-size:14px;"><b>Monday, September 28</b> · dinner, 6:00 pm · Lýra, 905 W Fulton Market, Chicago, IL 60607<br><b>Tuesday, September 29</b> · working day, 8:00 am – 4:00 pm · departures from ORD from about 6:25 pm work</p>
       <p class="cap">Caitrin is sharing flights and hotel for coordination.</p>
     </div>
   </div>
   <div class="panel rv">
-    <div class="phead"><h2>Monday dinner · the people conversation</h2></div>
+    <div class="phead"><h2>Monday dinner · the people conversation</h2><span class="annot">Lýra · 905 W Fulton Market (Fulton Market) · 6:00 pm</span></div>
     <div class="pbody">
-      <p style="margin:0; font-size:13px;">Welcome Frances in person. Then the questions that belong over a meal rather than a table of documents: what, if, and when to consider new members (Kim, Darryl); Frances's lane; how we relate to Stand Together and Andrew Clark in Arizona; what each of us can carry with funders this fall. No output required beyond direction; decisions get recorded Tuesday.</p>
+      <p style="margin:0; font-size:14px;">Welcome Frances in person. Then the questions that belong over a meal rather than a table of documents: what, if, and when to consider new members (Kim, Darryl); Frances's lane; how we relate to Stand Together and Andrew Clark in Arizona; what each of us can carry with funders this fall. No output required beyond direction; decisions get recorded Tuesday.</p>
     </div>
   </div>
 
